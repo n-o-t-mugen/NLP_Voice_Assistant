@@ -295,4 +295,3 @@ class ConformerTrainer:
     def evaluate_model(self):
         """Evaluates the Conformer model."""
         return self.model.evaluate(self.valid_data)
-
